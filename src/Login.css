@@ -1,0 +1,16 @@
+.field{
+    border : 2px solid black;
+    height: 7vh;
+    width : 18vw;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+.select-field{
+    padding : 1vw;
+}
+.login-body{
+    display : flex;
+}

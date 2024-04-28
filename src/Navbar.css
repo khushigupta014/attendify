@@ -1,0 +1,13 @@
+.navbar{
+  background-image: linear-gradient(rgb(245, 24, 249),rgb(185, 96, 223));
+  height: 10vh;
+  width : 100vw;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  
+}
+.title{
+color : black;
+margin-left : 1.5vw;
+}
