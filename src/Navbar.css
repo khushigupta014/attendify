@@ -1,5 +1,5 @@
 .navbar{
-  background-image: linear-gradient(rgb(245, 24, 249),rgb(185, 96, 223));
+  background-color : black;
   height: 10vh;
   width : 100vw;
   display: flex;
@@ -8,6 +8,6 @@
   
 }
 .title{
-color : black;
+color : white;
 margin-left : 1.5vw;
 }

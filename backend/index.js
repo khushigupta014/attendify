@@ -145,7 +145,7 @@ app.post('/register', async (req, res) => {
     try {
         const existingManagement = await Management.findOne({name});
         if (existingManagement) {
-            return res.status(400).json({ message: 'Management already exists' });
+            return res.status(400).json({ message: 'Institute already exists' });
         }
         const newManagement = new Management({
             name,
@@ -182,7 +182,7 @@ app.post('/login',async (req,res) => {
         
         if(!existingManagement)
         {
-            return res.status(404).json({message : "management not found"});
+            return res.status(404).json({message : "institute is not found"});
         }
         
         if(existingManagement.password === password)
@@ -190,7 +190,7 @@ app.post('/login',async (req,res) => {
             
             const management = {name,password,address : existingManagement.address,managementId : existingManagement._id};
             const token = jwt.sign(management,secret);
-            return res.status(200).json({message : "login successfully ",
+            return res.status(201).json({message : "login successfully ",
             token,
             managementData : management
          });

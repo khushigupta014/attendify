@@ -4,6 +4,7 @@ const Navbar = () => {
   return (
     <div className='navbar'>
       <div className='title'>Attendify</div>
+
     </div>
   )
 }

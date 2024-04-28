@@ -36,12 +36,12 @@ const Hero = () => {
           <div className='buttons'>
           <button onClick={()=>navigateTo('/register')} class="button">
 Join Us
-<div class="hoverEffect">
+<div onClick={()=>navigateTo('./register')} class="hoverEffect">
 <div>
 </div>
 </div></button>
 
-<button onClick={()=>{navigateTo('/login')}} class="button">
+<button class="button">
 Login
 <div class="hoverEffect">
 <div>

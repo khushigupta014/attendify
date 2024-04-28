@@ -1,0 +1,23 @@
+.institute-body{
+    height: 90vh;
+    width : 100vw;
+}
+
+.sidebar{
+    height: 90vh;
+    width : 20vw;
+    border : 2px solid black;
+}
+
+.profile-picture{
+    height: 40vh;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-image{
+    height: 10vh;
+    width : 10vw;
+    border : 2px solid black;
+}
